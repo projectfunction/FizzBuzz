@@ -1,30 +1,15 @@
 # Anagram
 
-JavaScript starter code for the 'Anagram' assignment
+JavaScript starter pack for the 'Fizz Buzz' assignment
 
 ## Task
-- Open the file called `anagram-checker.js`
-- Create a function called `checkAnagram` that takes in 2 parameters; the source text, and the anagram text
-- The function should return true if they are anagrams (same length and same letters) and return false if not
-- If the two words are the same, they should not be considered anagrams
-- The function should return a boolean value as soon as possible
-
-### Test Notes
-- If you want to test the code for yourself before submitting, paste your code into the ScratchPad (https://dash.projectfunction.io/scratchpad), followed by:
-    ```javascript
-    // Your code before this
-
-    function runTests(inp,out,answer){
-        if (checkAnagram(inp,out) === answer) console.log("SUCCESS: " + inp + " => " + out);
-        else console.log("FAILED: " + inp + " isn't an anagram for " + out);
-    }
-    runTests('listen','silent', true);
-    runTests('radium','madrid', false);
-    runTests('eleven plus two','twelve plus one', true);
-    runTests('funeral','real fun', true);
-    runTests('spain','spain', false);
-    ```
-- An automatic test will be run against your submission, so make sure your function is named `checkAnagram` and that your code is in the `anagram-checker.js` file
+- Open the file called `fizzbuzz.js`
+- Write a program that loops through numbers 1 to 100, and outputs (using `console.log()`) 'Fizz', 'Buzz', 'FizzBuzz', or the number
+- For each number in the loop:
+    - If the number is a multiple of 3, output 'Fizz'
+    - If the number is a multiple of 5, output 'Buzz'
+    - If the number is a multiple of both 3 and 5, output 'FizzBuzz'
+    - If the number is not a multiple of either 3 or 5, output the number
 
 
 ### Submission Notes
