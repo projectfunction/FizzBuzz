@@ -1,4 +1,4 @@
-# Anagram
+# FizzBuzz
 
 JavaScript starter pack for the 'Fizz Buzz' assignment
 
@@ -10,6 +10,26 @@ JavaScript starter pack for the 'Fizz Buzz' assignment
     - If the number is a multiple of 5, output 'Buzz'
     - If the number is a multiple of both 3 and 5, output 'FizzBuzz'
     - If the number is not a multiple of either 3 or 5, output the number
+
+
+### Example
+The first 10 lines of the output for your code should be as followed:
+```bash
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+```
+
+
+### Test Notes
+If you want to test the code for yourself before submitting, paste your code into the ScratchPad (https://dash.projectfunction.io/scratchpad)
 
 
 ### Submission Notes
