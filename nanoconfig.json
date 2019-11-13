@@ -1,6 +1,6 @@
 {
     "files":[
-        "index.js"
+        "fizzbuzz.js"
     ],
     "tests":[
         "test.js"
