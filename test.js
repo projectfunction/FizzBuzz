@@ -1,9 +1,3 @@
-/**
- * DO NOT REMOVE THIS COMMENT
- *
- * @Target fizzbuzz.js
- */
- 
 describe('Output should contain 100 elements', ()=>{
 	expect(answerArr.length).toEqual(100);
 });
