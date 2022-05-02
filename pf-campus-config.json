@@ -5,8 +5,8 @@
     "action": {
         "test": {
             "skip": false,
-            "setup": "_setup.js",
-            "entry": "_test.js"
+            "setup": "_campus/setup.js",
+            "entry": "_campus/test.js"
         },
         "deploy": {
             "skip": true,
