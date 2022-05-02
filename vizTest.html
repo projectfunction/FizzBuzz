@@ -6,16 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FizzBuzz Visual Test</title>
     <script src="_campus/vizTestPolyfill.js"></script>
+    <script src="fizzbuzz.js" defer></script>
     <script src="_campus/test.js" defer></script>
+    <style>
+        * { font-family: sans-serif;}
+        table { width: 100%; border-collapse: collapse; border-radius: 4px; border: 1px solid }
+        thead { font-weight: bold; border-bottom: 1px solid }
+        tbody tr:nth-child(odd) {background: gainsboro}
+        td { padding: 2px 5px }
+    </style>
 </head>
 <body>
     <table>
         <thead>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Test</td>
+            <td>Result</td>
+            <td>Detail</td>
         </thead>
         <tbody id="results">
+            
+        </tbody>
+    </table>
+
+    <br>
+
+    <h5>Log</h5>
+    <table>
+        <tbody id="output">
             
         </tbody>
     </table>

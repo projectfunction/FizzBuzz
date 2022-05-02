@@ -29,8 +29,8 @@ Buzz
 
 
 ### Test Notes
-If you want to test the code for yourself before submitting, paste your code into the ScratchPad (https://dash.projectfunction.io/scratchpad)
+If you want to test the code for yourself before submitting, you can open the [vizTest.html](./vizTest.html) file in your browser.
 
 
 ### Submission Notes
-Once you have completed the task, simply push your changes back to the repository for this assignment. After the submission deadline, only the latest push will be considered.
+Once you have completed the task, simply push your changes back to the repository for this assignment. After the submission deadline, only the latest push will be considered. DO NOT EDIT FILES IN THE '_campus' FOLDER! Doing so may lead to a *fail*.

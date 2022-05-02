@@ -1,6 +1,12 @@
+let answerArr = [];
 
 function output(...args){
-    console.log(...args);
+	console.log.call(this,...args);
+	answerArr.push(args[0]);
+
+    const line = document.createElement('tr');
+    line.innerHTML = `<td>${args.join(' ')}</td>`
+    document.querySelector('#output').appendChild(line);
 }
 
 let lastTestName;
@@ -16,14 +22,14 @@ function logResult(testName, outcome, detail) {
     document.querySelector('#results').appendChild(line);
 }
 
-function expect(actual){
+function expect(given){
     return {
-        toEqual: (given) => {
+        toEqual: (actual) => {
             const result = (actual === given);
             const detail = result ? '' : `Expect to equal: Got ${given} instead of ${actual}`;
             logResult(lastTestName, result ? 'PASS' : 'FAIL', detail);
         },
-        toBeVaguelyEqual: (given) => {
+        toBeVaguelyEqual: (actual) => {
             const result = (actual == given);
             const detail = result ? '' : `Expect to vaguely equal: Got ${given} instead of ${actual}`;
             logResult(lastTestName, result ? 'PASS' : 'FAIL', detail);
