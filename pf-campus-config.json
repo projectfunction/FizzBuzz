@@ -1,0 +1,18 @@
+{
+    "owner": "YOUR_PFCAMPUS_USERNAME",
+    "project": "fizzbuzz",
+    "licence": "MIT LICENSE",
+    "action": {
+        "test": {
+            "skip": false,
+            "setup": "_setup.js",
+            "entry": "_test.js"
+        },
+        "deploy": {
+            "skip": true,
+            "notify_on_fail": true
+        },
+        "submission": { "skip": false }
+    },
+    "permission_request": []
+}

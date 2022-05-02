@@ -1,9 +1,0 @@
-{
-    "files":[
-        "fizzbuzz.js"
-    ],
-    "tests":[
-        "test.js"
-    ],
-    "setup":"setup.js"
-}
